@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "comment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "postId": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

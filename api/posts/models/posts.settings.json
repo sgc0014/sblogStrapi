@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "posts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Coverimage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "comments": {
+      "collection": "comment"
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}
