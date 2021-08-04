@@ -7,9 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
-  },
+    "strapi": "strapi",},
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
