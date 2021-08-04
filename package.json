@@ -7,7 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",},
+    "strapi": "strapi"},
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
